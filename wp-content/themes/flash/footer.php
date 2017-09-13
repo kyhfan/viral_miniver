@@ -32,6 +32,8 @@
 		<div id="bottom-footer">
 			<div class="tg-container">
 
+					<?php do_action( 'flash_copyright_area' ); ?>
+
 					<?php wp_nav_menu( array( 'theme_location' => 'footer', 'menu_class' => 'footer-menu', 'fallback_cb' => false, ) ); ?>
 
 			</div>
