@@ -65,5 +65,5 @@ get_header(); ?>
 
 <?php
 get_sidebar();
-get_sidebar('left');
+//get_sidebar('left');
 get_footer();
