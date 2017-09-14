@@ -125,7 +125,7 @@ function flash_footer_copyright() {
 }
 endif;
 
-add_action( 'flash_copyright_area', 'flash_footer_copyright' );
+//add_action( 'flash_copyright_area', 'flash_footer_copyright' );
 
 if ( ! function_exists( 'flash_breadcrumbs' ) ) :
 /**
