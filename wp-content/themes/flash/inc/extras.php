@@ -113,6 +113,7 @@ if ( ! function_exists( 'flash_footer_copyright' ) ) :
  */
 function flash_footer_copyright() {
 	?>
+<!-- 푸터 수정 영역 -->	
 <div class="copyright">
 	<span class="copyright-text">
 		<?php printf( esc_html__( 'Copyright %1$s %2$s', 'flash' ), '&copy; ', date( 'Y' ) ); ?>
@@ -125,7 +126,7 @@ function flash_footer_copyright() {
 }
 endif;
 
-//add_action( 'flash_copyright_area', 'flash_footer_copyright' );
+add_action( 'flash_copyright_area', 'flash_footer_copyright' );
 
 if ( ! function_exists( 'flash_breadcrumbs' ) ) :
 /**
